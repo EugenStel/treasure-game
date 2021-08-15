@@ -1,6 +1,28 @@
+.popup {
+    position: absolute;
+    translate: (-50%, -50%);
+    background-color: white;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.start {
+    border: 1px solid #2d2d2d;
+    border-radius: 10px;
+    font-size: 22px;
+    transition: all .5s ease;
+    color: white;
+    background-color: dimgray;
+}
+
+.start:hover {
+    background-color: indianred;
+}
+
 #map_wrapper {
     width: 550px;
     margin: 50px auto;
+    position: relative;
 }
 
 #map_wrapper > img {
